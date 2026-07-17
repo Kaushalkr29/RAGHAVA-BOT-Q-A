@@ -1,0 +1,45 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- Environment variables / secrets ----------
+.env
+*.env
+.env.*
+secrets.toml
+
+# ---------- Vector / Sparse / Graph DBs (don't push these!) ----------
+Vector_db/
+vector_db/
+Sparse_db/
+Graph_db/
+chroma_db/
+*.pkl
+*.sqlite3
+chroma.sqlite3
+
+
+
+
+# ---------- IDE / editor ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- OS junk ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Logs / cache ----------
+*.log
+.cache/
